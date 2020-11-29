@@ -1,0 +1,20 @@
+{
+  "name": "bislite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "devserver": "live-server",
+    "prefix:css": "autoprefixer css/main.scss --use autoprefixer -o css/style.css"
+  },
+  "author": "Gaya",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.0.2",
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {}
+}
