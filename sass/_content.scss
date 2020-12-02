@@ -20,7 +20,6 @@
 
     &__icon {
         position: relative;
-        display: block;
     }
 
     &__icon::before {
@@ -32,13 +31,14 @@
         position: absolute;
         top: 0;
         left: 0;
-        display: block;
     }
 
     &__title {
         font-size: 15px;
         font-weight: 700;
         text-transform: uppercase;
+        margin-bottom: 36px;
+        display: inline-block;
     }
 
     &__descr {
