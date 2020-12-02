@@ -15,7 +15,7 @@
   color: #000000;
   font-size: 50px; }
   .header__logo-link span {
-    color: #81e4ed;
+    color: #2aacc8;
     font-weight: 400; }
 
 .header__menu {
@@ -35,10 +35,10 @@
 .header__item-drop:hover {
   background: #fff;
   position: relative;
-  border-top: 5px solid #81e4ed; }
+  border-top: 5px solid #2aacc8; }
 
 .header__item-drop:hover .header__item-link {
-  color: #81e4ed; }
+  color: #2aacc8; }
 
 .header__item-link {
   font-size: 13px;
@@ -46,7 +46,7 @@
   text-transform: uppercase;
   font-family: "arial", sans-serif; }
   .header__item-link:hover {
-    color: #81e4ed; }
+    color: #2aacc8; }
   .header__item-link object {
     width: 12px;
     height: 12px;
@@ -63,7 +63,7 @@
   list-style-type: none;
   background-color: #fff;
   background-color: #fff;
-  border-bottom: 5px solid #81e4ed;
+  border-bottom: 5px solid #2aacc8;
   position: absolute;
   margin-top: 10px;
   left: 0;
@@ -91,7 +91,7 @@
 .header__drop-link {
   line-height: 30px; }
   .header__drop-link:hover {
-    color: #81e4ed; }
+    color: #2aacc8; }
 
 .header__bottom {
   padding-top: 19px;
@@ -145,6 +145,46 @@
 
 .swiper-pagination-bullet-active {
   background-color: #fff; }
+
+.benefits {
+  padding: 60px 0 52px;
+  background-color: #e8ebf1;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  box-shadow: 0px -2px 5px -1px rgba(0, 0, 0, 0.07); }
+  .benefits__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .benefits__item {
+    flex: 0 0 22%; }
+  .benefits__icon {
+    position: relative; }
+  .benefits__icon::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #2aacc8;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block; }
+  .benefits__title {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .benefits__descr {
+    font-size: 13px;
+    font-weight: 400;
+    color: #363636; }
+  .benefits__link {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "arial", sans-serif;
+    color: #2aacc8;
+    text-transform: capitalize; }
+    .benefits__link:hover {
+      color: #81e4ed; }
 
 *,
 *::before,
