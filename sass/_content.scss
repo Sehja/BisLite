@@ -1,0 +1,64 @@
+//  BENEFITS SECTION START
+
+
+.benefits {
+
+    padding: 60px 0 52px;
+    background-color: #e8ebf1;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    box-shadow: 0px -2px 5px -1px rgba(0, 0, 0, 0.07);
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__item {
+        flex: 0 0 22%;
+    }
+
+    &__icon {
+        position: relative;
+        display: block;
+    }
+
+    &__icon::before {
+        content: "";
+        width: 40px;
+        height: 40px;
+        background-color: $color-primary-thertiary;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+    }
+
+    &__title {
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__descr {
+        font-size: 13px;
+        font-weight: 400;
+        color: $color-prymary;
+    }
+
+    &__link {
+        font-size: 13px;
+        font-weight: 400;
+        font-family: "arial",
+            sans-serif;
+        color: $color-primary-thertiary;
+        text-transform: capitalize;
+
+        &:hover {
+            color: $color-primary-second;
+        }
+    }
+}
+
+// BENEFITS SECTION END
