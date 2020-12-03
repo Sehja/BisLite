@@ -68,8 +68,6 @@
         }
 
         object {
-            width: 12px;
-            height: 12px;
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
@@ -125,68 +123,58 @@
 
         
     }
+
+    // SWIPER SLIDER START
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .slide-inner {
+        position: relative;
+    }
+
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: -15px;
+        height: 50px;
+        position: relative;
+    }
+
+    .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+        width: 14px;
+        height: 14px;
+        margin: 0 8px;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #fff;
+    }
+
+    // SWIPER SLIDER END
 }
 
-.title {
-    position: absolute;
-    color: #fff;
-    left: 50px;
-    max-width: 294px;
-    font-size: 50px;
-    text-align: left;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-// SWIPER SLIDER START
-
-.swiper-container {
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
-
-.slide-inner {
-    position: relative;
-}
-
-.swiper-container-horizontal>.swiper-pagination-bullets,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-    bottom: -15px;
-    height: 50px;
-    position: relative;
-}
-
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
-    width: 14px;
-    height: 14px;
-    margin: 0 8px;
-}
-
-.swiper-pagination-bullet-active {
-    background-color: #fff;
-}
-
-// SWIPER SLIDER END
 
 
 

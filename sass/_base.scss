@@ -10,6 +10,11 @@ body {
     font-family: 'Lato',
     sans-serif;
     color: $color-black;
+
+    ::selection {
+        background-color: #DF5936;
+        color: #fff;
+    }
 }
 
 a {
@@ -21,4 +26,24 @@ a {
     max-width: 1030px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+.title-first {
+    position: absolute;
+    color: #fff;
+    left: 50px;
+    max-width: 294px;
+    font-size: 50px;
+    text-align: left;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+    .title-second {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "arial",
+        sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
 }

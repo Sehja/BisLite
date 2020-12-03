@@ -18,33 +18,64 @@
         flex: 0 0 22%;
     }
 
-    &__icon {
-        position: relative;
+    &__header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
     }
 
-    &__icon::before {
-        content: "";
+    &__icon {
         width: 40px;
         height: 40px;
         background-color: $color-primary-thertiary;
         border-radius: 50%;
-        position: absolute;
-        top: 0;
-        left: 0;
+        display: inline-block;
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
     }
 
-    &__title {
-        font-size: 15px;
-        font-weight: 700;
-        text-transform: uppercase;
-        margin-bottom: 36px;
-        display: inline-block;
+    &__icon::after {
+        content: "";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+    }
+
+    &__icon-1::after {
+        width: 21px;
+        height: 29px;
+        background: url(/images/pencil.svg);
+    }
+
+    &__icon-2::after {
+        width: 23px;
+        height: 21px;
+        background: url(/images/fullscreen.svg);
+    }
+
+    &__icon-3::after {
+        width: 20px;
+        height: 20px;
+        background: url(/images/view_list.svg);
+    }
+
+    &__icon-4::after {
+        width: 23px;
+        height: 24px;
+        background: url(/images/plane.svg);
     }
 
     &__descr {
         font-size: 13px;
         font-weight: 400;
+        font-family: "arial",
+        sans-serif;
+        line-height: 20px;
         color: $color-prymary;
+        margin-bottom: 28px;
     }
 
     &__link {
@@ -58,7 +89,89 @@
         &:hover {
             color: $color-primary-second;
         }
+    } 
+
+    &__link::before {
+        content: "";
+        background: url(/images/down_arrow.svg);
+        background-repeat: no-repeat;
+        transform: rotate(-90deg);
+        width: 20px;
+        height: 20px;
+        display: inline-block;
     }
 }
 
 // BENEFITS SECTION END
+
+
+
+
+
+// REVIEW SECTION START
+
+
+.review {
+    padding: 19px 0 39px;
+
+    .works {
+        position: relative;
+        padding: 9px 0 20px;
+
+        .title-second {
+            background: url(/images/arrow_blue.svg);
+            background-repeat: no-repeat;
+            height: 28px;
+            padding-top: 12px;
+            padding-left: 40px;
+        }
+
+        // .title-second::before {
+        //     content: "";
+        //     background: url(/images/arrow_blue.svg);
+        //     background-repeat: no-repeat;
+        //     width: 50px;
+        //     height: 29px;
+        //     display: inline-block;
+        // }
+    }
+    .slider {
+        padding: 20px 0 40px;
+        border-top: 1px solid $color-grey-light;
+        border-bottom: 1px solid $color-grey-light;
+
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        outline: none;
+        color: #434343;
+        opacity: 1;
+        background-color: $color-primary-second;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .swiper-button-prev {
+        right: 40px;
+        left: auto;
+    }
+
+    .swiper-button-prev::after {
+        content: "";
+        background: url(/images/arrow_left.png);
+        background-repeat: no-repeat;
+        width: 8px;
+        height: 10px;
+    }
+
+    .swiper-button-next::after {
+        content: "";
+        background: url(/images/arrow_right.png);
+        background-repeat: no-repeat;
+        width: 6px;
+        height: 10px;
+    }
+}
+
