@@ -173,5 +173,88 @@
         width: 6px;
         height: 10px;
     }
+
+    .review__wrapper {
+        padding: 25px 0 41px;
+        display: flex;
+        justify-content: space-between;
+        &>div {
+            flex: 0 0 45%;
+        }
+        
+        .test {
+            .title-second {
+                background: url(/images/comments.svg);
+                background-repeat: no-repeat;
+                padding-left: 42px;
+                height: 28px;
+                padding-top: 9px;
+                margin-bottom: 20px;
+            }
+            &__descr {
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 400;
+                color: $color-prymary;
+                margin-bottom: 35px;
+            }
+
+            &__copyright {
+                font-size: 14px;
+                font-weight: 700;
+                font-family: "arial",
+                sans-serif;
+                font-style: italic;
+            }
+        }
+
+        .clients {
+            .title-second {
+                background: url(/images/clients.svg);
+                background-repeat: no-repeat;
+                padding-left: 42px;
+                height: 28px;
+                padding-top: 9px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    &__bottom {
+        background-color: #e8fcfe;
+        border: 1px solid hsl(185, 87%, 76%);
+        padding: 37px 31px 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-descr {
+            width: 70%;
+        }
+        &-btn {
+            padding: 20px 20px 20px 71px;
+            background-color: #2aacc8;
+            background: url(/images/download.svg) no-repeat 10% 40%, linear-gradient(0.0deg, #2aacc8 0%, #60cede 10%, #72dae6 50%, #81e4ed 100%);
+            background-position: 10% 40%;
+            box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            border: 1px solid #2aacc8;
+            font-size: 18px;
+            line-height: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #0d0707;
+            cursor: pointer;
+            outline: none;
+            &:hover {
+                transform: translateY(-1px);
+                box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
+            }
+            &:active {
+                transform: translateY(1px);
+                box-shadow: none;
+
+            }
+        }
+    }
 }
 

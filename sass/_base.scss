@@ -28,6 +28,21 @@ a {
     padding: 0 15px;
 }
 
+.logo {
+    display: inline-block;
+}
+
+.logo-link {
+    font-weight: 900;
+    color: $color-black;
+    font-size: 50px;
+
+    span {
+        color: $color-primary-thertiary;
+        font-weight: 400;
+    }
+}
+
 .title-first {
     position: absolute;
     color: #fff;
