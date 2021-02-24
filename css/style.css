@@ -254,7 +254,7 @@ a {
     position: relative;
     padding: 9px 0 20px; }
     .review .works .title-second {
-      background: url(/images/arrow_blue.svg);
+      background: url(../images/arrow_blue.svg);
       background-repeat: no-repeat;
       height: 28px;
       padding-top: 12px;
@@ -277,13 +277,13 @@ a {
     left: auto; }
   .review .swiper-button-prev::after {
     content: "";
-    background: url(/images/arrow_left.png);
+    background: url(../images/arrow_left.png);
     background-repeat: no-repeat;
     width: 8px;
     height: 10px; }
   .review .swiper-button-next::after {
     content: "";
-    background: url(/images/arrow_right.png);
+    background: url(../images/arrow_right.png);
     background-repeat: no-repeat;
     width: 6px;
     height: 10px; }
@@ -294,7 +294,7 @@ a {
     .review .review__wrapper > div {
       flex: 0 0 45%; }
     .review .review__wrapper .test .title-second {
-      background: url(/images/comments.svg);
+      background: url(../images/comments.svg);
       background-repeat: no-repeat;
       padding-left: 42px;
       height: 28px;
@@ -312,7 +312,7 @@ a {
       font-family: "arial", sans-serif;
       font-style: italic; }
     .review .review__wrapper .clients .title-second {
-      background: url(/images/clients.svg);
+      background: url(../images/clients.svg);
       background-repeat: no-repeat;
       padding-left: 42px;
       height: 28px;
@@ -330,7 +330,7 @@ a {
     .review__bottom-btn {
       padding: 20px 20px 20px 71px;
       background-color: #2aacc8;
-      background: url(/images/download.svg) no-repeat 10% 40%, linear-gradient(0deg, #2aacc8 0%, #60cede 10%, #72dae6 50%, #81e4ed 100%);
+      background: url(../images/download.svg) no-repeat 10% 40%, linear-gradient(0deg, #2aacc8 0%, #60cede 10%, #72dae6 50%, #81e4ed 100%);
       background-position: 10% 40%;
       box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
       border-radius: 10px;
