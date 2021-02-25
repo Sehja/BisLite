@@ -3,7 +3,7 @@ var swiper = new Swiper('.swiper-container-1', {
         el: '.swiper-pagination',
         clickable: true,
         slidesPerView: 1,
-        breakpoints: {// настройки для разных разрешений
+        breakpoints: {
             768: {
                 slidesPerView: 'auto',
                 spaceBetween: 8
@@ -13,8 +13,8 @@ var swiper = new Swiper('.swiper-container-1', {
                 spaceBetween: 30
             },
             1192: {
-                slidesPerView: 3,
-                spaceBetween: 20
+                slidesPerView: 1,
+                spaceBetween: 30
             }
         }
       },

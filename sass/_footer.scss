@@ -57,6 +57,12 @@
         }
     }
 
+    &__social-icon {
+        &:hover {
+            filter: brightness(1.5);
+        }
+    }
+
     address {
         font-size: 14px;
         font-style: normal;
@@ -74,8 +80,13 @@
         font-size: 14px;
 
         &-1 {
-            display: block;
+            display: inline-block;
             margin-bottom: 2px;
+            &:hover {
+                color: $color-primary-thertiary;
+            }
+        }
+        &-2 {
             &:hover {
                 color: $color-primary-thertiary;
             }
